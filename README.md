@@ -1,17 +1,14 @@
 # Object detection of Floating Waste near coast
-|detection|
-|--------------|
-|![picture](https://github.com/boguss1225/object_detection-near-coast/blob/main/results/val_result.png)| \
+
+![picture](https://github.com/boguss1225/object_detection-near-coast/blob/main/results/val_result.png) \
 ↑ Object detection result from validation dataset
 
 ## Introduction
 Plastic waste is among the most dangerous ocean pollutants and one of the main factors causing disruption of ocean ecosystems and marine organisms [1,2]. According to the recent studies, the global weight of floating plastic at about 5.25 trillion particles amounts to more than 268,000 tons [3,4], where these particles are produced from multiple sources related to wrong daily-life practices. The fishery activities, including waste fishing nets, are the major contributors to production of this huge amount of plastic waste and pollution of the oceans [5], where approx. 705,479 short tons of fishing gear are lost or discarded in the ocean every year and annually this gear captures and kills on average 136,000 seals, sea lions and whales [[6], [7], [8]]. (from [9]...) \
 \
-\
-![picture](https://github.com/boguss1225/object_detection-near-coast/blob/main/results/val_result2.png)
+![picture](https://github.com/boguss1225/object_detection-near-coast/blob/main/results/val_result2.png) \
 ↑ Picture of ocean waste and its detection.
-\
-\
+
 ## Data Overview
 - images : 94 (.jpg files)
 - label: 499 instances
@@ -44,8 +41,9 @@ names: [
   'Vinyl'
 ] 
 ```
-\
+
 - data example (cropped)
+
 |label  |Plastic bottle       |Plastic buoy      |Metal     |
 |----|--------------|--------------|--------------|
 |image|![picture][pic1]|![picture][pic2]|![picture][pic3]|
@@ -59,9 +57,6 @@ names: [
 [pic4]: https://github.com/boguss1225/object_detection-near-coast/blob/main/results/vinyl_0.jpg
 [pic5]: https://github.com/boguss1225/object_detection-near-coast/blob/main/results/glass_bot_0.jpg
 [pic6]: https://github.com/boguss1225/object_detection-near-coast/blob/main/results/pet_bot_0.jpg
-
-\
-\
 
 - label distribution
 ![picture](https://github.com/boguss1225/object_detection-near-coast/blob/main/results/labels.png)
@@ -113,9 +108,6 @@ names: [
 ## PRcurve
 ![picture](https://github.com/boguss1225/object_detection-near-coast/blob/main/results/PR_curve.png)
 
-## Training learning curves
-![picture](https://github.com/boguss1225/obect-detection-tubeworm/blob/main/results/training_result.png)
-
 ## Further things to do
 - Organise annotation (e.g. put bottle types together, Styrofoam)
 - Additional image preprocessing adjustment
@@ -127,13 +119,13 @@ names: [
 🌱 Special thanks to the data provider!
 
 # References
-[1] M. Mofijur, S.F. Ahmed, S.M.A. Rahman, S.Y. Arafat Siddiki, A.B.M.S. Islam, M. Shahabuddin, P.L. Show, Source, distribution and emerging threat of micro- and nanoplastics to marine organism and human health: socio-economic impact and management strategies, Environ. Res. (2021), 10.1016/j.envres.2021.110857.
-[2] G. Chen, Y. Li, J. Wang, Occurrence and ecological impact of microplastics in aquaculture ecosystems, Chemosphere (2021), 10.1016/j.chemosphere.2021.129989.
-[3] F. Bandini, I. Hchaichi, N. Zitouni, O. Missawi, P.S. Cocconcelli, E. Puglisi, M. Banni, Bacterial community profiling of floating plastics from South Mediterranean sites: first evidence of effects on mussels as possible vehicles of transmission, J. Hazard Mater. (2021), 10.1016/j.jhazmat.2021.125079.
-[4] A. van Giezen, B. Wiegmans, Spoilt - Ocean Cleanup: Alternative Logistics Chains to Accommodate Plastic Waste Recycling: an Economic Evaluation, Transportation Research Interdisciplinary Perspectives (2020), 10.1016/j.trip.2020.100115
-[5] D.B. Daniel, S.N. Thomas, K.T. Thomson, Assessment of fishing-related plastic debris along the beaches in Kerala Coast, India, Mar. Pollut. Bull. (2020), 10.1016/j.marpolbul.2019.110696
-[6] M.L.V. Barbosa-Filho, C.I. Seminara, D.C. Tavares, S. Siciliano, R.A. Hauser-Davis, J. da Silva Mourão, Artisanal Fisher perceptions on ghost nets in a tropical South Atlantic marine biodiversity hotspot: challenges to traditional fishing culture and implications for conservation strategies: ghost net impacts: artisanal Fisher perceptions and challenges to fishing culture, Ocean Coast Manag. (2020), 10.1016/j.ocecoaman.2020.105189
-[7] K. Richardson, C. Wilcox, J. Vince, B.D. Hardesty, Challenges and misperceptions around global fishing gear loss estimates, Mar. Pol. (2021), 10.1016/j.marpol.2021.104522
-[8] https://chinadialogueocean.net/5085-ghost-gear-a-grave-threat-to-ocean-life/
-[9] EIMONTAS, J. et al. Catalytic pyrolysis kinetic behaviour and TG-FTIR-GC–MS analysis of waste fishing nets over ZSM-5 zeolite catalyst for caprolactam recovery. Renewable Energy, [s. l.], v. 179, p. 1385–1403, 2021. DOI 10.1016/j.renene.2021.07.143. Acesso em: 19 dez. 2022.
-- YOLOv5 🚀 : https://github.com/ultralytics/yolov5
+[1] M. Mofijur, S.F. Ahmed, S.M.A. Rahman, S.Y. Arafat Siddiki, A.B.M.S. Islam, M. Shahabuddin, P.L. Show, Source, distribution and emerging threat of micro- and nanoplastics to marine organism and human health: socio-economic impact and management strategies, Environ. Res. (2021), 10.1016/j.envres.2021.110857. \
+[2] G. Chen, Y. Li, J. Wang, Occurrence and ecological impact of microplastics in aquaculture ecosystems, Chemosphere (2021), 10.1016/j.chemosphere.2021.129989. \
+[3] F. Bandini, I. Hchaichi, N. Zitouni, O. Missawi, P.S. Cocconcelli, E. Puglisi, M. Banni, Bacterial community profiling of floating plastics from South Mediterranean sites: first evidence of effects on mussels as possible vehicles of transmission, J. Hazard Mater. (2021), 10.1016/j.jhazmat.2021.125079. \
+[4] A. van Giezen, B. Wiegmans, Spoilt - Ocean Cleanup: Alternative Logistics Chains to Accommodate Plastic Waste Recycling: an Economic Evaluation,  Transportation Research Interdisciplinary Perspectives (2020), 10.1016/j.trip.2020.100115 \
+[5] D.B. Daniel, S.N. Thomas, K.T. Thomson, Assessment of fishing-related plastic debris along the beaches in Kerala Coast, India, Mar. Pollut. Bull. (2020), 10.1016/j.marpolbul.2019.110696 \
+[6] M.L.V. Barbosa-Filho, C.I. Seminara, D.C. Tavares, S. Siciliano, R.A. Hauser-Davis, J. da Silva Mourão, Artisanal Fisher perceptions on ghost nets in a tropical South Atlantic marine biodiversity hotspot: challenges to traditional fishing culture and implications for conservation strategies: ghost net impacts: artisanal Fisher perceptions and challenges to fishing culture, Ocean Coast Manag. (2020), 10.1016/j.ocecoaman.2020.105189 \
+[7] K. Richardson, C. Wilcox, J. Vince, B.D. Hardesty, Challenges and misperceptions around global fishing gear loss estimates, Mar. Pol. (2021), 10.1016/j.marpol.2021.104522 \
+[8] https://chinadialogueocean.net/5085-ghost-gear-a-grave-threat-to-ocean-life/ \
+[9] EIMONTAS, J. et al. Catalytic pyrolysis kinetic behaviour and TG-FTIR-GC–MS analysis of waste fishing nets over ZSM-5 zeolite catalyst for caprolactam recovery. Renewable Energy, [s. l.], v. 179, p. 1385–1403, 2021. DOI 10.1016/j.renene.2021.07.143. Acesso em: 19 dez. 2022. \
+[10] YOLOv5 🚀 : https://github.com/ultralytics/yolov5 \
