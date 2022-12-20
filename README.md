@@ -65,6 +65,8 @@ names: [
 - ambiguous boundary (overlapped and mixed)
 - various size
 - various shape (damaged)
+![picture](https://github.com/boguss1225/object_detection-near-coast/blob/main/results/data_var.png) \
+↑ Even within same class, the shape,size and colour are heterogeneous due to its level of decay, existence of label, and manufacturer. \
 
 
 ## System Used for training
