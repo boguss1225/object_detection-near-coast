@@ -117,7 +117,7 @@ names: [
 - The overall result is not that satisfying. Maybe we should start from labeling again.
 
 ## Data source
-🌱 https://www.aihub.or.kr/ -> ㈜아이렘기술개발 \
+🌱 https://www.aihub.or.kr/ -> ㈜아이렘기술개발 (http://iremtech.co.kr) \
 🌱 Special thanks to the data provider!
 
 # References
