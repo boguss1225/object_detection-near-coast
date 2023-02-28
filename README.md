@@ -130,4 +130,4 @@ names: [
 [7] K. Richardson, C. Wilcox, J. Vince, B.D. Hardesty, Challenges and misperceptions around global fishing gear loss estimates, Mar. Pol. (2021), 10.1016/j.marpol.2021.104522 \
 [8] https://chinadialogueocean.net/5085-ghost-gear-a-grave-threat-to-ocean-life/ \
 [9] EIMONTAS, J. et al. Catalytic pyrolysis kinetic behaviour and TG-FTIR-GC–MS analysis of waste fishing nets over ZSM-5 zeolite catalyst for caprolactam recovery. Renewable Energy, [s. l.], v. 179, p. 1385–1403, 2021. DOI 10.1016/j.renene.2021.07.143. Acesso em: 19 dez. 2022. \
-[10] YOLOv5 🚀 : https://github.com/ultralytics/yolov5 \
+[10] YOLOv5 🚀 : https://github.com/ultralytics/yolov5 
